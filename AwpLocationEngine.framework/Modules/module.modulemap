@@ -1,0 +1,11 @@
+framework module AwpLocationEngine {
+  umbrella header "AwpLocationEngine.h"
+
+  export *
+  module * { export * }
+}
+
+module AwpLocationEngine.Swift {
+    header "AwpLocationEngine-Swift.h"
+    requires objc
+}
